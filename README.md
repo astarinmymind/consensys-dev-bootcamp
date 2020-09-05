@@ -8,3 +8,5 @@
 - implemented consensus algorithm by checking chains in other nodes and finding the longest valid chain
 
 ## Generating Ethereum Accounts in Javascript
+- Learning public key cryptography and digital signatures. 
+- Generate a private key, derive public keys from the private key and determine the associated accounts.
