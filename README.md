@@ -1,2 +1,2 @@
-# consensysdevbootcamp2020
+# consensys
 Consensys Blockchain Developer Bootcamp 2020
