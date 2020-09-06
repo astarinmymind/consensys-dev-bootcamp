@@ -16,3 +16,20 @@
 - Geth is used to mine real ether, transfer funds between addresses, create contracts and send transactions, and explore block history.
 - Played around with geth javascript console ($ geth console)
 - Created private blockchain (genesis.json)
+    - config: defines settings for private blockchain
+    - chainId: identifies blockchain 
+    - alloc: allows creation of addresses and fills account with ether upon initialization of blockchain 
+          - left empty in order to fill accounts by mining ether
+    - difficulty: indicates how difficult to discover valid hash of block 
+          - defines mining target
+          - calculated according to previous block difficulty and timestamp 
+          - difficulty indicates how many average calculations miner will have to complete to find block 
+          - value fluctuates to maintain target block generation time 
+    - extraData: optional 32 byte value to add information
+    - gasLimit: sets chain-wide limit of gas expenditure per block 
+    - parentHash: keccak256 hash of parent block's header 
+    - timestamp: output of Unix time() function at block's creation 
+          - used in calculation of difficulty level 
+          - allows verification of order of blocks in the chain 
+ 
+
