@@ -10,3 +10,9 @@
 ## Generating Ethereum Accounts in Javascript
 - Learning public key cryptography and digital signatures. 
 - Generate a private key, derive public keys from the private key and determine the associated accounts.
+
+## Using Geth (Go-Ethereum)
+- Geth (Go-Ethereum) is a command line interface for running a full ethereum node implemented inGo. 
+- Geth is used to mine real ether, transfer funds between addresses, create contracts and send transactions, and explore block history.
+- Played around with geth javascript console ($ geth console)
+- Created private blockchain (genesis.json)
