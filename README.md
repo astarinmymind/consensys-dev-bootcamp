@@ -15,7 +15,8 @@
 - Geth (Go-Ethereum) is a command line interface for running a full ethereum node implemented inGo. 
 - Geth is used to mine real ether, transfer funds between addresses, create contracts and send transactions, and explore block history.
 - Played around with geth javascript console ($ geth console)
-- Created private blockchain (genesis.json)
+- Created private blockchain with proof of work consensus mechanism (**test-private-blockchain**)
+    **genesis.json**
     - config: defines settings for private blockchain
     - chainId: identifies blockchain 
     - alloc: allows creation of addresses and fills account with ether upon initialization of blockchain 
@@ -31,5 +32,18 @@
     - timestamp: output of Unix time() function at block's creation 
           - used in calculation of difficulty level 
           - allows verification of order of blocks in the chain 
+    
+    - created new account 
+    - mined private chain
+    - sent transaction 
+    - checked balance
+ - Created private blockchain with proof of authority consensus mechanism (**geth-poa**)
+    - used native geth proof-of-authority protocol *clique*
+    - configured clique via puppeth for creating custom genesis blocks
+    - used bootnode to act as a router/hub where all nodes pass information and receive information from this node 
+    - launched node1 with genesis block (node1 is a mining node) 
+    - launched node2 and node3 to interact with blockchain
+    - sent transactions from nodes to each other 
+    
  
 
