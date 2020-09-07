@@ -16,6 +16,7 @@
 - Geth is used to mine real ether, transfer funds between addresses, create contracts and send transactions, and explore block history.
 - Played around with geth javascript console ($ geth console)
 - Created private blockchain with proof of work consensus mechanism (**test-private-blockchain**)
+
     **genesis.json**
     - config: defines settings for private blockchain
     - chainId: identifies blockchain 
@@ -37,6 +38,7 @@
     - mined private chain
     - sent transaction 
     - checked balance
+    
  - Created private blockchain with proof of authority consensus mechanism (**geth-poa**)
     - used native geth proof-of-authority protocol *clique*
     - configured clique via puppeth for creating custom genesis blocks
