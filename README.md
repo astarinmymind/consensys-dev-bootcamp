@@ -61,6 +61,6 @@
 - learned how to avoid loops and implement voting
 - learned to assess possible attacks on contracts 
 - worked with modifiers, events/emit, indexed keywords
-- interactd with contract in vscode with truffle develop
+- used truffle develop to interact with contract
  
 
