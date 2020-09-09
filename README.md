@@ -47,10 +47,20 @@
     - launched node2 and node3 to interact with blockchain
     - sent transactions from nodes to each other 
     
-## Writing Smart Contracts -- Proof of Existence (proof-of-existence)
+## Writing Smart Contracts 
+
+**Proof of Existence (proof-of-existence)**
 - used ganache-cli for development blockchain 
 - practice with truffle create, migrate, console
 - three versions: one proof, array of proofs, mapping of proofs
 - used infura to deploy to rinkeby testnet 
+
+**Multi-Signature Wallet (MultiSignatureWallet.sol)**
+- multisignature wallet: an account that requires some m-of-n quorum of approved private keys to approve a transaction before it is executed
+- learned how to handle complex interactions between multiple users on one contract
+- learned how to avoid loops and implement voting
+- learned to assess possible attacks on contracts 
+- worked with modifiers, events/emit, indexed keywords
+- interactd with contract in vscode with truffle develop
  
 
