@@ -33,7 +33,6 @@
     - timestamp: output of Unix time() function at block's creation 
           - used in calculation of difficulty level 
           - allows verification of order of blocks in the chain 
-    
     - created new account 
     - mined private chain
     - sent transaction 
@@ -63,4 +62,5 @@
 - worked with modifiers, events/emit, indexed keywords
 - used truffle develop to interact with contract
  
+## Assignment: SimpleBank
 
