@@ -63,6 +63,10 @@
 - used truffle develop to interact with contract
  
 ## Assignment: SimpleBank
+- bank with getBalance, enroll, deposit, withdraw 
+- used mappings, events 
 
 ## Assignment: SupplyChain
+- simple supply chain with ForSale, Sold, Shipped, and Received 
+- used mappings, structs, enums, events, modifiers
 
